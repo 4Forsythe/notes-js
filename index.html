@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesJS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="script/app.js" defer></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="fraction">
+            <div class="fraction-header">
+                <h1 class="fraction-header-h1">NotesJS</h1>
+            </div>
+            <div class="fraction-container">
+                <form class="notice-interaction" action="#">
+                    <div class="notice-interaction-container">
+                        <img class="notice-icon" src="https://www.svgrepo.com/show/476788/write.svg" alt="Note">
+                        <input class="notice-inlet" id="notice-inlet" type="text" autocomplete="off" placeholder="Type something...">
+                    </div>
+                    <button class="notice-invoke" id="notice-invoke">Scribe</button>
+                </form>
+                <ul class="notice-collection" id="notice-collection">
+                    <li class="notice-container">
+                        <span class="note"></span>
+                        <span class="notice-remove" data-index="0" data-type="remove">&times;</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
